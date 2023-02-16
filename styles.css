@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+.container{
+	border: 5px solid black;
+	padding:10px;
+	width: 450px;
+}
+.item{
+	padding:10px;
+	margin:10px;
+	width:100px;
+	height:100px;
+	background: lightblue;
+}
+.item:nth-of-type(odd){
+	background: teal;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
