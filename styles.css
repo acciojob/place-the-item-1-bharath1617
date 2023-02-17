@@ -1,20 +1,23 @@
 .container{
-	border: 5px solid black;
 	padding:10px;
 	width: 450px;
 }
 .item{
-	padding:10px;
 	margin:10px;
 	width:100px;
 	height:100px;
-	background: lightblue;
 }
-.item:nth-of-type(odd){
-	background: teal;
+.item1{
+	background: green;
+}
+.item2{
+	background: red;
+}
+.item3{
+	background: blue;
 }
 .container{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap:row wrap;
 	justify-content: space-between;
 }
